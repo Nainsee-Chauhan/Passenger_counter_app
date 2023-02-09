@@ -1,0 +1,46 @@
+body{
+ background-image: url(pic.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+  
+
+h1 {
+    text-align: center;
+    font-size: 25px;
+    font-style:italic;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 50px;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 50px;
+  }
+
+  button{
+    border: none;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 200px;
+    color: white;
+    font-weight: bold;
+    width: 150px;
+  }
+
+  #increment-btn{
+    margin-left: 80px;
+    font-size: 11px;
+    background-color: blueviolet;
+  }
+
+  #save-btn{
+      font-size: 16px;
+      background-color: green;
+  }
+  p{
+    margin-left: 80px;
+    font-size: 15px;
+    font-weight: bold;
+  }
