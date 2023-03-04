@@ -1,20 +1,30 @@
-body{
- background-image: url(pic.jpg);
-  background-attachment: fixed;
+.background{
+  background-image: url(train.jpg);
   background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  filter: blur(8px);
+  z-index: -1;
 }
-  
 
 h1 {
+    color: rgb(101, 13, 91);
     text-align: center;
     font-size: 25px;
     font-style:italic;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     font-size: 50px;
+    margin-top: 150px;
   }
   
   h2 {
+    color: rgb(81, 5, 86);
     text-align: center;
     font-size: 50px;
   }
@@ -27,12 +37,14 @@ h1 {
     color: white;
     font-weight: bold;
     width: 150px;
+    
   }
 
   #increment-btn{
-    margin-left: 80px;
-    font-size: 11px;
-    background-color: blueviolet;
+    margin-left: 460px;
+    margin-top: 50px;
+    font-size: 16px;
+    background-color: rgb(90, 29, 148);
   }
 
   #save-btn{
@@ -40,7 +52,9 @@ h1 {
       background-color: green;
   }
   p{
-    margin-left: 80px;
-    font-size: 15px;
+    color: rgb(8, 8, 105);
+    margin-top: 80px;
+    margin-left: 445px;
+    font-size: 25px;
     font-weight: bold;
   }
